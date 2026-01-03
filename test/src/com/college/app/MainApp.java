@@ -35,9 +35,9 @@ public class MainApp {
 		StudentService obj3=new StudentService();
 	
 		
-		 System.out.println(obj2.getName());
-		System.out.println(obj2.getAge());
-		System.out.println(obj2.getContactNumber());
+		 System.out.println("Name:"+obj2.getName());
+		System.out.println("Age:"+obj2.getAge());
+		System.out.println("contactName"+obj2.getContactNumber());
 		obj2.studentDetails();
 		obj3.calculateDiscountedFee(department, courseFee);
 		scanner.close();
