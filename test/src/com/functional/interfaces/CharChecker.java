@@ -5,7 +5,7 @@ public interface CharChecker {
 	public static void main(String[] args) {
 		CharChecker obj=new CharChecker() {
 			public void checkChar(char a){
-				//char num=a;
+				char num=a;
 				int ascii=(int) a;
 				if (ascii <= 1) {
                    System.out.println(ascii+" Not prime");
